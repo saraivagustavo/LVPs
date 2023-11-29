@@ -8,13 +8,11 @@ def main():
     d = int(0)
     maior = int(0) #implícita
     menor = int(0) #implícita
-    
     #entrada de dados
     a = int(input())
     b = int(input())
     c = int(input())
     d = int(input())
-    
     #processamento
     #condicional para achar o maior valor
     if(a > b and a > c and a > d):
@@ -25,7 +23,6 @@ def main():
         maior = c
     else:
         maior = d
-     
     #condicional para achar o menor valor   
     if(a < b and a < c and a < d):
         menor = a
@@ -34,11 +31,9 @@ def main():
     elif(c < d):
         menor = c
     else:
-        menor = d
-     
+        menor = d 
     #saída de dados   
     print(f'{maior + menor}')
-
     return 0
     
 if __name__ == "__main__":
